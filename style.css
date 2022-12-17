@@ -1,0 +1,114 @@
+
+html {
+	font-size: 20px;
+	color: white;
+	font-family: Avanta Garde;
+	font-weight: 700;
+}
+  
+body {
+   	background-color: black;
+	background-image: url("image1.jfif");
+
+}
+
+	
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 150px;
+	font-family: Franklin Gothic Medium;
+	text-align: center;
+}
+
+h2 {
+	font-size: 80px;
+	text-align: center;
+	font-family: Avanta Garde;
+	font-weight: 700;
+	text-align: center;
+
+}
+#text{
+	text-align: center;
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.headband {  
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+.button {
+	background-color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	border: 2px solid black;
+	
+}
+.list{
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+ul li {
+	display: inline-block;
+	color: black;
+	height: 350px
+	width: 550px
+	
+
+}
+
+
+ol li{
+	background-color: white;
+	width: 550px;
+	height: 100px;
+	color: black;
+
+}
+
+
+#video{
+    position: relative;
+    top: 125px;
+    left: 300px;
+    background-color: black;
+	width: 1300px;
+	height: 800px;
+
+}
+
+
+#table1 {
+	color: white;
+    position: relative;
+   	top: 0px;
+    left: 650px;
+    font-weight: 100;
+}
+
+
+#groupe {
+    font-weight: 700;
+}
+
+
+#fin{
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}

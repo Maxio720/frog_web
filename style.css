@@ -1,0 +1,163 @@
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
+
+body{
+    background-image: url("BackgroundPondgif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    font-family: 'Public Pixel', sans-serif;
+}
+
+h1{
+    position: relative;
+    padding-top: 20px;
+    bottom: 105px;
+}
+
+
+button:active {
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
+
+button:hover{
+    color: white;
+}
+
+.chat-box{
+    display: inline-block;
+    margin: auto;
+    width: 930px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    bottom: 50px;
+}
+
+.chat-box-content::-webkit-scrollbar {
+    display: none;
+  }
+
+.chat-box-content{
+    font-size: 16px;
+    letter-spacing: 0,8px;
+    line-height: 1.4;
+    width: 910px;
+    height: 570px;
+    overflow: auto;
+
+}
+.dialogbox {
+    position: absolute;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+.message {
+    position: relative;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.response {
+    position: relative;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.nextpage {
+    float: right;
+    position: relative;
+    right: 20px;
+    background-color: #fa8c1f;
+    border:3px solid #000000;
+    font-family: 'Public Pixel', sans-serif;
+    width: 40px;
+
+}
+.previouspage {
+    float: left;
+    position: relative; 
+    background-color: #fa8c1f;
+    border:3px solid #000000;
+    font-family: 'Public Pixel', sans-serif;
+    width: 40px;
+}
+
+.input-box {
+    margin: auto;
+    display: grid;
+    width: 500px;
+    margin-top: 5px;
+    
+}
+
+.input-box input{
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    background-color: #fff1d2;
+    border:4px solid #000000;
+    font-family: 'Public Pixel', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0,5px;
+}
+
+.input-box button{
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #fa8c1f;
+    border:3px solid #000000;
+    font-family: 'Public Pixel', sans-serif;
+}
+.setting {
+    position: absolute;
+    display: block;
+    left: 1850px;
+    top: 10px;
+}
+.cog {
+    position: relative;
+    padding: 5px 5px;
+    margin: auto;
+    background-color: #fa8c1f;
+    border:3px solid #000000;
+    width: 40px;
+}
+
+.cog:hover {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.cog:active {
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
+
+.settingMenu {
+    position: absolute;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 250px;
+    height: 150px;
+    background-color: #3b3b3bd4;
+    border:3px solid #000000;
+    right: 818px;
+    top: 300px;
+    z-index: 1000;
+}
+
+.settingButton {
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    background-color: #fa8c1f;
+    border:3px solid #000000;
+}
